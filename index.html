@@ -10,10 +10,18 @@
 
   h2, p {
     font-family: sans-serif;
+
   }
   
   h2 {
     font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+  }
+
+  p {
+    margin-top: 10px;
   }
 
 
@@ -31,14 +39,31 @@
 
   tr:nth-child(even){background-color: #f2f2f2}
 
+  button {
+    padding: 14px 24px;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 
 </style>
 </head>
 <body>
 
-<h2>Bars to work</h2>
-<p>Lorem ipsum</p>
-<p>Dolor sit</p>
+<div class="head">
+  <div>
+    <h2>Bars to work</h2>
+    <p>Friendly Bars where to go to work. A bar is "friendly" if it has at least: 1) power outlets 2) free wifi 3) seats 4) coffee ☕</p>
+  </div>
+  
+  <button class="submit-bar">Add a bar</button>
+</div>
 
 
 
@@ -58,17 +83,17 @@
       <th>Punto debole</th>
     </tr>
     <tr>
-      <td>Jill</td>
-      <td>Smith</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
+      <td>Brescia, Italy</td>
+      <td>Esselunga Atlantic, via Triumplina 41</td>
+      <td>down 61 / up 59</td>
+      <td>sim, ma non per tutti i tavoli</td>
+      <td>media</td>
+      <td>sì</td>
+      <td>media</td>
+      <td>possono impallare monitor</td>
+      <td>sì</td>
+      <td>spazioso, bella vista verso l'esterno</td>
+      <td>WiFi solo 1h</td>
     </tr>
     <tr>
       <td>Eve</td>
